@@ -4,17 +4,20 @@
 	<listeners>
 		<listener class-name="e2e.TestComponent.Listeners"></listener>
 	</listeners>
-  <test thread-count="5" name="Submit Order">
-    <classes>
-      <class name="Meven.Framework_Practise.eCommerce_E2E"/>
-    </classes>
-  </test> <!-- Test -->
-  
-   <test thread-count="5" name="Error Validation">
-    <classes>   
-      <class name="Meven.Framework_Practise.errorValidation"/>
-    </classes>
-  </test> <!-- Test -->
-  
-  
-</suite> <!-- Suite -->
+	<test thread-count="5" name="Submit Order">
+		<classes>
+			<class name="Meven.Framework_Practise.eCommerce_E2E" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="Error Validation">
+		<classes>
+			<class name="Meven.Framework_Practise.errorValidation" />
+		</classes>
+	</test> <!--
+	Test -->
+
+
+</suite> <!--
+Suite -->
